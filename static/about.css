@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fb;
+}
+
+.hero {
+    background: linear-gradient(135deg, #fd0df1, #4facfe);
+    color: white;
+    padding: 70px 20px;
+    border-radius: 0 0 40px 40px;
+}
+
+.hero img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.info-card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h5 {
+    font-weight: 600;
+    color: #290dfd;
+}
+
+.footer {
+    background: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+.heal-navbar {
+    background: linear-gradient(135deg, #0d6efd, #4dd4ac);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.heal-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.heal-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.heal-navbar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.heal-navbar .nav-link.active {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.logo .myimg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.heal-navbar .navbar-nav {
+    gap: 14px;
+}
+
+.heal-navbar {
+    padding: 6px 0;
+}

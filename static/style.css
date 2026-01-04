@@ -1,0 +1,187 @@
+.accordion-body {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #212529;
+}
+
+
+.list-group-item {
+    border: none;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+
+
+
+.badge {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.badge:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.accordion-button {
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+}
+
+.logo {
+    width: 55px;
+    height: 50px;
+    color: black;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.myimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.heal-navbar {
+    background: linear-gradient(135deg, #0d6efd, #4dd4ac);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.heal-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.heal-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.heal-navbar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.heal-navbar .nav-link.active {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.logo .myimg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.heal-navbar .navbar-nav {
+    gap: 14px;
+}
+
+.heal-navbar {
+    padding: 6px 0;
+}
+
+.accordion-item {
+    border: none;
+    transition: all 0.35s ease;
+}
+
+.accordion-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.gradient-desc {
+    background: linear-gradient(135deg, #6f42c1, #9d6cff);
+    color: #fff;
+}
+
+.gradient-pre {
+    background: linear-gradient(135deg, #198754, #20c997);
+    color: #fff;
+}
+
+.gradient-med {
+    background: linear-gradient(135deg, #dc3545, #ff6b6b);
+    color: #fff;
+}
+
+.gradient-diet {
+    background: linear-gradient(135deg, #fd7e14, #ffc107);
+    color: #fff;
+}
+
+.gradient-work {
+    background: linear-gradient(135deg, #0dcaf0, #0d6efd);
+    color: #fff;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.spinner-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.symptom-card {
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+    border-radius: 1.2rem;
+}
+
+.symptom-title {
+    background: linear-gradient(135deg, #0d6efd, #4dd4ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.symptom-input {
+    background-color: #ffffff;
+    border: 1px solid #cfe2ff;
+}
+
+.symptom-input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.2);
+}
+
+
+.btn-heal {
+    background: linear-gradient(135deg, #dc3545, #ff6b6b);
+    border: none;
+}
+
+.btn-heal:hover {
+    background: linear-gradient(135deg, #bb2d3b, #ff4d4d);
+}
+
+
+body {
+    background: linear-gradient(180deg, #f8fafc, #eef2ff);
+}
+
+.footer {
+    background: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}

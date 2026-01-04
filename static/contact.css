@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(135deg, #eef3ff, #f8f9fa);
+    font-family: "Segoe UI", sans-serif;
+}
+
+.contact-card {
+    border-radius: 22px;
+    background: linear-gradient(180deg, #ffffff, #f9fbff);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 35px 70px rgba(0, 0, 0, 0.12);
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+.icon-box {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #0d6efd, #5a8dff);
+    color: #fff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 8px 20px rgba(13, 110, 253, 0.25);
+    transition: all 0.4s ease;
+}
+
+.icon-box:hover {
+    background: linear-gradient(135deg, #5a8dff, #0d6efd);
+    transform: rotate(-5deg) scale(1.05);
+    box-shadow: 0 14px 30px rgba(13, 110, 253, 0.4);
+}
+
+.social-btn {
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    transition: all 0.35s ease;
+    z-index: 1;
+}
+
+.social-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #0d6efd, #6610f2, #20c997);
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    z-index: -1;
+}
+
+.social-btn:hover::before {
+    opacity: 1;
+}
+
+.social-btn:hover {
+    color: #fff !important;
+    border-color: transparent;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+.btn-outline-danger.social-btn::before {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+.btn-outline-info.social-btn::before {
+    background: linear-gradient(135deg, #0dcaf0, #0d6efd);
+}
+
+.btn-outline-dark.social-btn::before {
+    background: linear-gradient(135deg, #343a40, #000000);
+}
+
+
+.heal-navbar {
+    background: linear-gradient(135deg, #0d6efd, #4dd4ac);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.heal-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.heal-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.heal-navbar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.heal-navbar .nav-link.active {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.logo .myimg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.heal-navbar .navbar-nav {
+    gap: 14px;
+}
+
+.heal-navbar {
+    padding: 6px 0;
+}
